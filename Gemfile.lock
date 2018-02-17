@@ -236,10 +236,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 176)
-  jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
   jekyll-theme-clean-blog
-  minima (~> 2.0)
   tzinfo-data
 
 BUNDLED WITH
