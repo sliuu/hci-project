@@ -8,7 +8,6 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "github-pages", ">=176", group: :jekyll_plugins
 #gem "jekyll", "~> 3.6.2"
 gem "jekyll-theme-clean-blog"
 
@@ -16,6 +15,7 @@ gem "jekyll-theme-clean-blog"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "github-pages", ">=176"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
